@@ -14,10 +14,12 @@
 }
 
 body{
-    background-color: var(--cor-03);
+    background-image: url(../imagens/pexels-goldcircuits-2425232.jpg);
+    background-size: auto;
+    background-repeat: repeat;
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor-04), var(--cor-02));
+    background-color: rgb(22, 22, 22);
     height: 110px;
 }
 header > h1{
@@ -32,7 +34,7 @@ header > p{
 }
 nav{
     height: 20px;
-    background-color: var(--cor-04);
+    background-color: rgb(31, 31, 31);
     padding: 10px;
     
 }
@@ -45,19 +47,26 @@ nav > a{
     font-weight: bold;
 }
 nav > a:hover{
-    background-color: var(--cor-02);
-    color: black;
+    background-color: gray;
+    color: rgb(27, 27, 27);
 }
 main{
     max-width: 500px;
     min-height: 100px;
     margin: auto;
-    background-color: var(--cor-01);
+    background-color: rgb(44, 44, 44);
     padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     line-height: 28px;
-
+    font-size: 18px;
+    color: white;
+}
+main  p{
+    text-indent: 20px;
+}
+main  h2{
+    font-size: 25px;
 }
 li.lista{
     padding-top: 10px;
@@ -66,6 +75,11 @@ li.lista{
 main li{
     list-style-position: inside;
     font-size: 18px;
+    
+}
+main iframe{
+    width: 100%;
+    max-width: 1000px;
 }
 aside p{
     font-size: 18px;
@@ -74,4 +88,8 @@ aside > p > a{
     display: block;
     text-decoration: none;
     color: white;
+}
+aside h3{
+    font-size: 25px;
+
 }
