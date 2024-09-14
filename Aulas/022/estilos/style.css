@@ -33,6 +33,20 @@ header > p{
 nav{
     height: 20px;
     background-color: var(--cor-04);
+    padding: 10px;
+    
+}
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: var(--cor-02);
+    color: black;
 }
 main{
     max-width: 500px;
@@ -55,4 +69,9 @@ main li{
 }
 aside p{
     font-size: 18px;
+}
+aside > p > a{
+    display: block;
+    text-decoration: none;
+    color: white;
 }
